@@ -1,0 +1,29 @@
+{
+  "name": "portalimagens-senior-backend",
+  "version": "1.0.0",
+  "description": "Backend do portalimagens integração com a senior ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "senior",
+    "imagens",
+    "portal"
+  ],
+  "author": "Christian Gallo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
